@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>クリックゲーム！</title>
+    <link rel="stylesheet" href="base.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="javascript.js" defer></script>
+    <script src="function.js" defer></script>
+</head>
+<body id="click_game">
+    <div id="stage">
+        <div id="start">
+            <img src="img/start.png">
+        </div>
+        <button class="chara"></button>
+        <button class="chara2"></button>
+        <button class="chara3"></button>
+    </div>
+    <div id="text">
+        <button class="bgm_btn">BGM</button>
+        <div class="count">COUNT:<span>30</span></div>
+        <div class="score">SCORE:<span>0</span></div>
+    </div>
+    <div id="rankingModal" class="modal">
+        <div class="modal-content">
+            <!-- <ul>
+                <li>1.aaa 5000</li>
+                <li>2.bbb 6000</li>
+            </ul>
+            <button>閉じる</button> -->
+        </div>
+    </div>
+    <audio src="sound/bgm.mp3" id="bgm"></audio>
+    <audio src="sound/試合終了のゴング.mp3" id="試合終了のゴング"></audio>
+</body>
+</html>
