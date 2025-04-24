@@ -40,7 +40,7 @@ $(function(){
             .css(getPosition())
             .animate({opacity:1},2000)
             .animate(getPosition(),7000)      
-        },200);
+        },2000);
     }
 
     function appear3(){
